@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1em;
+}
+
+button {
+  margin-bottom: 1em;
+  padding: 1em 1.5em;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(255, 255, 255, 0.2);
+  filter: blur();
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+button:hover {
+  letter-spacing: 2px;
+}
